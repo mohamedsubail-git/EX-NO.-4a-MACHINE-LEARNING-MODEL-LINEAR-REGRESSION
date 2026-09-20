@@ -390,6 +390,7 @@ results_df.sort_values(
 
 ##  MODEL COMPARISON
 <img width="601" height="250" alt="image" src="https://github.com/user-attachments/assets/bca8dfef-1052-4e92-90e1-0f6356888be5" />
+<img width="1128" height="647" alt="image" src="https://github.com/user-attachments/assets/42e19676-71bc-4dd9-bea6-a1cd20aedd81" />
 		
 
 ### Comparison Criteria
