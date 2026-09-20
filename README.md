@@ -1,4 +1,4 @@
-# EX-NO.-4a-MACHINE-LEARNING-MODEL-LINEAR-REGRESSION
+ # EX-NO.-4a-MACHINE-LEARNING-MODEL-LINEAR-REGRESSION
 ## AIM
 To predict house prices using regression models and compare the performance of different machine learning regression models based on RMSE, MAE, and R².
 1.Machine Learning:Machine Learning is used to learn patterns from existing data and make predictions. 
@@ -502,6 +502,26 @@ plt.title(
 plt.show()
 •	The graph provides a visual comparison of model errors. 
 •	The model with the lowest RMSE performs best according to this metric.
+
+# THEORY
+Regression is a supervised machine learning technique used to predict a continuous numerical value based on one or more input features. House price prediction is a common application of regression, where factors such as area, number of bedrooms, number of bathrooms, location, and age of the house are used to predict its price.
+
+In this experiment, different machine learning regression models are trained using a given house-price dataset. The input features are separated from the target variable, which represents the house price. The dataset is divided into training and testing data. The training data is used to build the regression models, while the testing data is used to evaluate their performance.
+
+Different regression algorithms can produce different prediction results. Some commonly used models are Linear Regression, Decision Tree Regression, and Random Forest Regression. Their performance is compared using evaluation metrics such as RMSE, MAE, and R².
+
+Root Mean Square Error (RMSE) measures the average magnitude of prediction errors, with larger errors receiving greater importance. Mean Absolute Error (MAE) represents the average absolute difference between actual and predicted prices. R² (R-squared) indicates how well the model explains the variation in the target variable. In general, a lower RMSE and MAE indicate better performance, while a higher R² indicates a better-fitting model.
+
+# WORKING PRINCIPLE
+The house-price dataset is first loaded and preprocessed. The relevant features are selected as input variables, while the house price is considered as the target variable.
+
+The dataset is then divided into training and testing sets. Different regression models are trained using the training data. Each model learns the relationship between the input features and house prices.
+
+After training, the models predict house prices using the testing data. The predicted values are compared with the actual house prices using RMSE, MAE, and R².
+
+The performance of all regression models is compared. The model with lower RMSE and MAE and higher R² is generally considered to have better predictive performance for the given dataset.
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/10530c3a-49a6-400b-90a6-718899acad20" />
+
 ## CONCLUSION
 Thus, Linear Regression and other regression models were successfully applied for house price prediction, and their performance was compared using standard regression evaluation metrics.
 
